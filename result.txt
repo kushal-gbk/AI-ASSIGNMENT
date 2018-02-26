@@ -1,0 +1,23 @@
+OPTIMIZER-ACTIVATION 
+
+
+ COMBINATION                           ACCURACY     
+----------------------------------------------------
+ RELU + STOCHASTIC GRADIENT BOOSTING   98.32%       
+ RELU + ADAGRAD                        98.38%       
+ RELU + ADAM                           98.13%       
+ SIGMOID + ADAM                        97.42%     
+
+
+
+PARAMETER TUNING
+
+
+ PARAMETER                           ACCURACY     
+----------------------------------------------------
+ LEARNING RATE(0.01)					98.13%          
+ LEARNING RATE(0.05)                    98.40%
+ LEARNING RATE(0.1)						98.42%       
+ BATCH SIZE(20)                         98.41%      
+ BATCH SIZE(200)                        98.13%     
+ BATCH SIZE(500)						98.37%
